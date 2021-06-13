@@ -7,7 +7,7 @@ node {
 
   stage('Check Env Parameters'){
     echo "Branch Name : ${env.GIT_BRANCH}"
-    echo "OCTO Server Address : ${env.octoServer}"
+    echo "OCTO SERVER Address : ${env.octoServer}"
   }
 
   stage('Run Cake') {
